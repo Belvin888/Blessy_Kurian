@@ -1,0 +1,163 @@
+/* top */
+.navbar-brand{
+    padding-left: 30px;
+    color: white !important; 
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.8rem;
+}
+.nav-co{
+    color: #fff;
+}
+.nav-item{
+    padding: 0 30px;
+}
+.nav-item a:hover {
+    border-bottom: 3px solid white;
+    color:#FC6E20 !important;
+  }
+.nav-link{
+    color: white !important;  
+    text-decoration:underline;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.1rem;
+}
+
+.profile{
+   text-align: center;
+   height: 500px ;
+   
+
+    
+}
+.back-img{
+    width: 100%;
+    height: 500px;
+    /* filter: brightness(-300); */
+    /* filter: grayscale(1); */
+}
+.pro-data{
+    position: relative;
+    bottom: 360px;
+    height: 300px;
+}
+.pro-img{
+    
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    }
+ .pro-data h3{
+     color: #fff;
+     padding-top: 1%;
+     font-family: 'Noto Sans SC', sans-serif;
+ }   
+ .pro-data h3:before{
+     content: "I'm ";
+     color: #fff;
+     font-family: 'Noto Sans SC', sans-serif;
+ }
+ .pro-data p{
+    color: #fff; 
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.4rem;
+ }
+
+ /* about */
+ .ab1{
+     text-align: center;
+     padding: 3% 15%;
+ }
+ .ab1 p{
+     padding-top: 2%;
+     font-family: 'Noto Sans SC', sans-serif;
+     font-size: 1rem;
+ }
+ .toyface{
+     width: 100px;
+     height: 100px;
+ }
+
+ .offcanvas-body{
+    font-family: 'Noto Sans SC', sans-serif;
+    
+ }
+
+ /* certificate */
+ #certificate {
+    padding: 50px;
+    text-align: center;
+    background: url(img/backg.jpg);
+  }
+  #certificate h1{
+      color: #fff;
+      font-family: 'Noto Sans SC', sans-serif;
+  }
+  .cli{
+      color: #fff;
+      font-size: 0.8rem;
+      font-family: 'Noto Sans SC', sans-serif;
+  }
+  
+  .price-text {
+    line-height: 2;
+    font-size: 1rem;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+  
+  .p-c {
+    padding: 3% 2%;
+  }
+  .card-img-top{
+      height: 200px;
+  }
+  /* get */
+  #get{
+      text-align: center;
+      padding-top: 2%;
+      font-family: 'Noto Sans SC', sans-serif;
+      padding-bottom: 4%;
+  }
+  #get h3{
+      padding-bottom: 10px;
+  }
+  /* bottom */
+  #bottom{
+      padding-top: 4%;
+      width: 100%;
+      height: 200px;
+      background: url(img/backg.jpg);
+  }
+  .icons{
+      text-align: center;
+      
+  }
+.ic1{
+    padding: 0 5%;
+    border-radius: 100%;
+    color: white;
+}
+.ic1.li:hover{
+    
+    color: #00aced ;
+    box-shadow: 0 0 5px #00aced;
+    transition: all 0.5s ease;
+}
+.ic1.git:hover{
+    
+    color: #010f00 ;
+    box-shadow: 0 0 5px #010f00;
+    transition: all 0.5s ease;
+}
+.ic1.int:hover{
+    
+    color: #DD2A7B ;
+    box-shadow: 0 0 5px #DD2A7B;
+    transition: all 0.5s ease;
+}
+.copy{
+    color: #fff;
+    font-family: 'Noto Sans SC', sans-serif;
+    padding-top: 3%;
+    font-size: 0.8rem;
+}
+
