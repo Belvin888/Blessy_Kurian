@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
     </script>
+<!--     Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- google fond -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
@@ -67,7 +69,7 @@
 
 
     </section>
-    <section id="about">
+    <section id="about" data-aos="flip-up">
         <div class="ab1">
             <img class="toyface" src="img/toyface.png" alt="" srcset="">
 
@@ -143,7 +145,7 @@
         <p class="cli">*Click the image to expand </p>
 
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
 
             <div class="p-c col-lg-4 col-md-6">
                 <div class="card">
@@ -269,6 +271,15 @@
 
     </section>
 
+<!--     Aos Script -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        delay: 0,
+        duration: 300
+      });
+    </script>
 
 </body>
 
